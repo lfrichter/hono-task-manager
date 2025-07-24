@@ -1,0 +1,19 @@
+{
+  "name": "hono_task_manager",
+  "module": "index.ts",
+  "scripts": {
+    "test": "bun test"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.17.1",
+    "hono": "^4.8.5"
+  }
+}
