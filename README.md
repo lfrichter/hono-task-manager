@@ -18,6 +18,8 @@ This project is a prototype of a full-stack application that demonstrates the po
 
 It's a perfect example for learning, creating demos, or bootstrapping a new idea.
 
+![Sample](https://i.imgur.com/UMpGR8P.png)
+
 -----
 
 ## ✨ Features
