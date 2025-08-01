@@ -20,6 +20,7 @@ It's a perfect example for learning, creating demos, or bootstrapping a new idea
 
 ![Sample|center](https://i.imgur.com/BbAmEj9.png)
 
+
 -----
 
 ## ✨ Features
@@ -165,6 +166,9 @@ bun test --watch
 
 > ✅ 100% test coverage for API endpoints.
 > ✅ Runs in milliseconds thanks to Bun's speed.
+
+
+![Tests|center](https://i.imgur.com/TNdRHd7.png)
 
 -----
 
