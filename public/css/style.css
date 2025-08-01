@@ -1,0 +1,21 @@
+body {
+  /* Estilos para a imagem de fundo que será definida via JavaScript */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixa a imagem para não rolar com o conteúdo */
+  transition: background-image 1s ease-in-out;
+}
+
+/* Adiciona um overlay escuro para melhorar a legibilidade do texto */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1; /* Coloca o overlay atrás de todo o conteúdo */
+}
+
