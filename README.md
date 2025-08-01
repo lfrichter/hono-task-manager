@@ -1,4 +1,4 @@
-# 🚀 Todo API with Hono.js & SQLite
+# 🏎️ Hono & Bun Starter Kit: A Fully-Tested Todo API
 
 A lightweight, full-stack to-do application built with **Hono.js**, **Bun**, and **SQLite**, featuring a clean frontend and persistent data storage.
 

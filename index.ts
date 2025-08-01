@@ -5,7 +5,6 @@ import { todoQueries } from './db';
 const app = new Hono();
 
 // List all todos
-// TODO: Create integration test for listing all todos
 app.get('/todos', (c) => {
   try {
     const todos = todoQueries.getAll();
@@ -17,7 +16,6 @@ app.get('/todos', (c) => {
 });
 
 // Get a single todo by ID
-// TODO: Create integration test for getting a single todo
 app.get('/todos/:id', (c) => {
   try {
     const id = Number(c.req.param('id'));
@@ -34,7 +32,6 @@ app.get('/todos/:id', (c) => {
 });
 
 // Create a new todo
-// TODO: Create integration test for creating a todo
 app.post('/todos', async (c) => {
   try {
     const { text } = await c.req.json<{ text: string }>();
@@ -61,7 +58,6 @@ app.post('/todos', async (c) => {
 });
 
 // Update a todo
-// TODO: Create integration test for updating a todo
 app.put('/todos/:id', async (c) => {
   try {
     const id = Number(c.req.param('id'));
@@ -89,7 +85,6 @@ app.put('/todos/:id', async (c) => {
 });
 
 // Delete a todo
-// TODO: Create integration test for deleting a todo
 app.delete('/todos/:id', (c) => {
   try {
     const id = Number(c.req.param('id'));
