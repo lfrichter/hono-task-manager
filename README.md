@@ -170,7 +170,17 @@ bun test --watch
 
 ![Tests|center](https://i.imgur.com/TNdRHd7.png)
 
------
+
+## 🤝 How to Contribute
+
+Contributions are welcome! If you have any ideas for improving the project, feel free to open an issue or submit a pull request.
+
+1. Fork the project.
+2. Create a new branch (git checkout -b feature/your-feature).
+3. Commit your changes (git commit -m 'Add your-feature').
+4. Push to the branch (git push origin feature/your-feature).
+5. Open a pull request.
+
 
 ## 📄 License
 
