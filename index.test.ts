@@ -7,6 +7,7 @@ const clearDb = () => db.run('DELETE FROM todos');
 beforeEach(clearDb);
 afterEach(clearDb);
 
+// Test suite for the Todo API
 describe('Todo API', () => {
   test('GET /todos - should return an empty array initially', async () => {
     const res = await app.request('/todos');

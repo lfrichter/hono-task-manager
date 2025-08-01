@@ -102,4 +102,7 @@ app.delete('/todos/:id', (c) => {
   }
 });
 
+// Health check endpoint
+app.get('/hello', (c) => c.text('Hello World'))
+
 export default app;
